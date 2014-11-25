@@ -63,14 +63,16 @@ namespace Asteroid_Belt_Assault
             playerSprite.CollisionRadius = playerRadius;
         }
 
-        private void FireShot()
+        private void FireShot(int Direction) // -1=left 0=straight 1=right
         {
             if (shotTimer >= minShotTimer)
             {
+              
                 PlayerShotManager.FireShot(
                     playerSprite.Location + gunOffset,
-                    new Vector2(0, -1),
+                    new Vector2(Direction, -1),
                     true);
+                
                 shotTimer = 0.0f;
             }
         }
@@ -96,10 +98,17 @@ namespace Asteroid_Belt_Assault
             {
                 playerSprite.Velocity += new Vector2(1, 0);
             }
-
-            if (keyState.IsKeyDown(Keys.Space))
+            if (keyState.IsKeyDown(Keys.A))
             {
-                FireShot();
+                FireShot(-1);
+            }
+            if (keyState.IsKeyDown(Keys.D))
+            {
+                FireShot(1);
+            }
+            if (keyState.IsKeyDown(Keys.Space) || keyState.IsKeyDown(Keys.S))
+            {
+                FireShot(0);
             }
         }
 
@@ -112,7 +121,7 @@ namespace Asteroid_Belt_Assault
 
             if (gamePadState.Buttons.A == ButtonState.Pressed)
             {
-                FireShot();
+                FireShot(0);
             }
         }
 

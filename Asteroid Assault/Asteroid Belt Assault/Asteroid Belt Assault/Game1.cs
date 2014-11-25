@@ -34,7 +34,7 @@ namespace Asteroid_Belt_Assault
 
         SpriteFont pericles14;
 
-        private float playerDeathDelayTime = 10f;
+        private float playerDeathDelayTime = 10;
         private float playerDeathTimer = 0f;
         private float titleScreenTimer = 0f;
         private float titleScreenDelayTime = 1f;
