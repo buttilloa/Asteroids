@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Eahscs\Desktop\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\SpriteSheet.xnb</Output>
-      <Time>2014-11-21T07:46:56.3354-05:00</Time>
+      <Output>C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\SpriteSheet.xnb</Output>
+      <Time>2014-12-02T07:44:31.8586-05:00</Time>
     </Item>
     <Item>
       <Source>Textures\TitleScreen.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Eahscs\Desktop\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\TitleScreen.xnb</Output>
-      <Time>2014-11-21T07:46:56.3744-05:00</Time>
+      <Output>C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\TitleScreen.xnb</Output>
+      <Time>2014-12-02T07:44:31.8696-05:00</Time>
     </Item>
     <Item>
       <Source>Sounds\Explosion1.wav</Source>
@@ -25,8 +25,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Eahscs\Desktop\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion1.xnb</Output>
-      <Time>2014-11-21T07:46:56.1424-05:00</Time>
+      <Output>C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion1.xnb</Output>
+      <Time>2014-12-02T07:44:31.8276-05:00</Time>
     </Item>
     <Item>
       <Source>Sounds\Explosion2.wav</Source>
@@ -34,8 +34,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Eahscs\Desktop\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion2.xnb</Output>
-      <Time>2014-11-21T07:46:56.1724-05:00</Time>
+      <Output>C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion2.xnb</Output>
+      <Time>2014-12-02T07:44:31.8306-05:00</Time>
     </Item>
     <Item>
       <Source>Sounds\Explosion3.wav</Source>
@@ -43,8 +43,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Eahscs\Desktop\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion3.xnb</Output>
-      <Time>2014-11-21T07:46:56.1994-05:00</Time>
+      <Output>C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion3.xnb</Output>
+      <Time>2014-12-02T07:44:31.8336-05:00</Time>
     </Item>
     <Item>
       <Source>Sounds\Explosion4.wav</Source>
@@ -52,8 +52,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Eahscs\Desktop\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion4.xnb</Output>
-      <Time>2014-11-21T07:46:56.2314-05:00</Time>
+      <Output>C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion4.xnb</Output>
+      <Time>2014-12-02T07:44:31.8416-05:00</Time>
     </Item>
     <Item>
       <Source>Sounds\Shot1.wav</Source>
@@ -61,8 +61,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Eahscs\Desktop\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Shot1.xnb</Output>
-      <Time>2014-11-21T07:46:56.2584-05:00</Time>
+      <Output>C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Shot1.xnb</Output>
+      <Time>2014-12-02T07:44:31.8476-05:00</Time>
     </Item>
     <Item>
       <Source>Sounds\Shot2.wav</Source>
@@ -70,8 +70,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Eahscs\Desktop\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Shot2.xnb</Output>
-      <Time>2014-11-21T07:46:56.2884-05:00</Time>
+      <Output>C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Shot2.xnb</Output>
+      <Time>2014-12-02T07:44:31.8506-05:00</Time>
     </Item>
     <Item>
       <Source>Sounds\Pew.wav</Source>
@@ -79,17 +79,8 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Eahscs\Desktop\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Pew.xnb</Output>
-      <Time>2014-11-21T07:50:00.2404-05:00</Time>
-    </Item>
-    <Item>
-      <Source>Fonts\Pericles14.spritefont</Source>
-      <Name>Fonts\Pericles14</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Eahscs\Desktop\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Fonts\Pericles14.xnb</Output>
-      <Time>2014-11-21T07:46:55.9074-05:00</Time>
+      <Output>C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Pew.xnb</Output>
+      <Time>2014-12-02T07:44:31.8456-05:00</Time>
     </Item>
     <Item>
       <Source>Sounds\boop.wav</Source>
@@ -97,8 +88,17 @@
       <Importer>WavImporter</Importer>
       <Processor>SoundEffectProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Eahscs\Desktop\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\boop.xnb</Output>
-      <Time>2014-11-21T08:03:44.3684-05:00</Time>
+      <Output>C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\boop.xnb</Output>
+      <Time>2014-12-02T07:44:31.8536-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\Pericles14.spritefont</Source>
+      <Name>Fonts\Pericles14</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Fonts\Pericles14.xnb</Output>
+      <Time>2014-12-02T07:44:31.8246-05:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -106,10 +106,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Eahscs\Desktop\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt AssaultContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Eahscs\Desktop\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Eahscs\Desktop\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt AssaultContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Eahscs\Desktop\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt AssaultContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt AssaultContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

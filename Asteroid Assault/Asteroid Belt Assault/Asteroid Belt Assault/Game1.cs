@@ -40,9 +40,12 @@ namespace Asteroid_Belt_Assault
         private float titleScreenDelayTime = 1f;
 
         private int playerStartingLives = 3;
+       
         private Vector2 playerStartLocation = new Vector2(390, 550);
         private Vector2 scoreLocation = new Vector2(20, 10);
+        private Vector2 gunLocation = new Vector2(555, 10);
         private Vector2 livesLocation = new Vector2(20, 25);
+        private Vector2 shotsLocation = new Vector2(575, 25);
 
 
         public Game1()
@@ -284,8 +287,27 @@ namespace Asteroid_Belt_Assault
                     "Score: " + playerManager.PlayerScore.ToString(),
                     scoreLocation,
                     Color.White);
-
-                if (playerManager.LivesRemaining >= 0)
+                spriteBatch.DrawString(
+                      pericles14,
+                      "Current Gun: " +
+                          playerManager.CurrentGun,
+                      gunLocation,
+                      Color.White);
+                if(playerManager.Shots >0)
+                spriteBatch.DrawString(
+                       pericles14,
+                       "Shots Remaining: " +
+                            playerManager.Shots,
+                       shotsLocation,
+                       Color.White);
+                else
+                    spriteBatch.DrawString(
+                      pericles14,
+                      "Shots Remaining: " +
+                          "RELOADING...",
+                      shotsLocation,
+                      Color.White);
+                if (playerManager.LivesRemaining > 0)
                 {
                     spriteBatch.DrawString(
                         pericles14,

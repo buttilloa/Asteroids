@@ -17,13 +17,16 @@ namespace Asteroid_Belt_Assault
         public long PlayerScore = 0;
         public int LivesRemaining = 3;
         public bool Destroyed = false;
-
+       
+        public int Shots = 10;
+        public String CurrentGun = "Machine";
+        
         private Vector2 gunOffset = new Vector2(25, 10);
         private float shotTimer = 0.0f;
         private float minShotTimer = 0.2f;
         private int playerRadius = 15;
         public ShotManager PlayerShotManager;
-
+        Game1 game = new Game1();
         public PlayerManager(
             Texture2D texture,  
             Rectangle initialFrame,
@@ -65,16 +68,15 @@ namespace Asteroid_Belt_Assault
 
         private void FireShot(int Direction) // -1=left 0=straight 1=right
         {
-            if (shotTimer >= minShotTimer)
-            {
-              
-                PlayerShotManager.FireShot(
-                    playerSprite.Location + gunOffset,
-                    new Vector2(Direction, -1),
-                    true);
-                
-                shotTimer = 0.0f;
-            }
+                if (shotTimer >= minShotTimer)
+                    {
+                           PlayerShotManager.FireShot(
+                            playerSprite.Location + gunOffset,
+                            new Vector2(Direction, -1),
+                            true);
+                        Shots--;
+                        shotTimer = 0.0f;
+                    }
         }
 
         private void HandleKeyboardInput(KeyboardState keyState)
@@ -106,9 +108,22 @@ namespace Asteroid_Belt_Assault
             {
                 FireShot(1);
             }
-            if (keyState.IsKeyDown(Keys.Space) || keyState.IsKeyDown(Keys.S))
+            if (Shots >= -1)
             {
-                FireShot(0);
+                if (keyState.IsKeyDown(Keys.Space) || keyState.IsKeyDown(Keys.S))
+                {
+                    FireShot(0);
+                }
+           }
+          if(Shots<=0)
+            {
+                int i = 0;
+                while (i < 100)
+                {
+                    i++;
+                }
+                Shots = 30;
+
             }
         }
 

@@ -60,3 +60,19 @@ C:\Users\Eahscs\Desktop\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Bel
 C:\Users\Eahscs\Desktop\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\obj\x86\Debug\Asteroid Belt Assault.exe
 C:\Users\Eahscs\Desktop\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\obj\x86\Debug\Asteroid Belt Assault.pdb
 C:\Users\Eahscs\Desktop\Asteroid Belt Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\boop.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\SpriteSheet.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\TitleScreen.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion1.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion2.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion3.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion4.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Shot1.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Shot2.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Pew.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\boop.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Fonts\Pericles14.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Asteroid Belt Assault.exe
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Asteroid Belt Assault.pdb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\obj\x86\Debug\Asteroid Belt Assault.exe
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\obj\x86\Debug\Asteroid Belt Assault.pdb
