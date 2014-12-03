@@ -34,7 +34,7 @@ namespace Asteroid_Belt_Assault
 
         SpriteFont pericles14;
 
-        private float playerDeathDelayTime = 10;
+        private float playerDeathDelayTime = 1f;
         private float playerDeathTimer = 0f;
         private float titleScreenTimer = 0f;
         private float titleScreenDelayTime = 1f;
@@ -43,9 +43,9 @@ namespace Asteroid_Belt_Assault
        
         private Vector2 playerStartLocation = new Vector2(390, 550);
         private Vector2 scoreLocation = new Vector2(20, 10);
-        private Vector2 gunLocation = new Vector2(555, 10);
+        private Vector2 gunLocation = new Vector2(545, 10);
         private Vector2 livesLocation = new Vector2(20, 25);
-        private Vector2 shotsLocation = new Vector2(575, 25);
+        private Vector2 shotsLocation = new Vector2(545, 25);
 
 
         public Game1()
@@ -290,7 +290,7 @@ namespace Asteroid_Belt_Assault
                 spriteBatch.DrawString(
                       pericles14,
                       "Current Gun: " +
-                          playerManager.CurrentGun,
+                          playerManager.currentGun.ToString(),
                       gunLocation,
                       Color.White);
                 if(playerManager.Shots >0)
@@ -304,7 +304,7 @@ namespace Asteroid_Belt_Assault
                     spriteBatch.DrawString(
                       pericles14,
                       "Shots Remaining: " +
-                          "RELOADING...",
+                          "Reload!",
                       shotsLocation,
                       Color.White);
                 if (playerManager.LivesRemaining > 0)

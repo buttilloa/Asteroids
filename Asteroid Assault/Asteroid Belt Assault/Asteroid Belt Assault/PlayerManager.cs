@@ -17,9 +17,12 @@ namespace Asteroid_Belt_Assault
         public long PlayerScore = 0;
         public int LivesRemaining = 3;
         public bool Destroyed = false;
-       
+        bool canSwitch = true;
         public int Shots = 10;
-        public String CurrentGun = "Machine";
+        //public String CurrentGun = "Machine";
+        
+        public enum CurrentGun {Machine, Rocket, Laser, TriGun};
+        public CurrentGun currentGun = CurrentGun.Machine;
         
         private Vector2 gunOffset = new Vector2(25, 10);
         private float shotTimer = 0.0f;
@@ -108,25 +111,38 @@ namespace Asteroid_Belt_Assault
             {
                 FireShot(1);
             }
-            if (Shots >= -1)
+            if (Shots > 0)
             {
                 if (keyState.IsKeyDown(Keys.Space) || keyState.IsKeyDown(Keys.S))
                 {
                     FireShot(0);
                 }
            }
-          if(Shots<=0)
-            {
-                int i = 0;
-                while (i < 100)
-                {
-                    i++;
-                }
+            if (keyState.IsKeyDown(Keys.R))
                 Shots = 30;
-
+            if (keyState.IsKeyDown(Keys.Z) && canSwitch)
+            {
+                cycleGun(-1);
+                canSwitch = false;
+            }
+            if (keyState.IsKeyDown(Keys.X) && canSwitch)
+            {
+                cycleGun(1);
+                canSwitch = false;
             }
         }
-
+        public void cycleGun(int direction)
+        {
+            int current = (int)currentGun;
+            int Max = Enum.GetNames(typeof(CurrentGun)).Length-1;
+            
+            if (direction > 0 && current != Max)
+                current++;
+            if (direction < 0 && current !=0)
+                current--;
+            currentGun = (CurrentGun)current;
+          
+        }
         private void HandleGamepadInput(GamePadState gamePadState)
         {
             playerSprite.Velocity +=
