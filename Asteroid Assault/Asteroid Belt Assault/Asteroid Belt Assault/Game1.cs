@@ -29,7 +29,7 @@ namespace Asteroid_Belt_Assault
         PlayerManager playerManager;
         EnemyManager enemyManager;
         ExplosionManager explosionManager;
-
+        GunManager gunManager;
         CollisionManager collisionManager;
 
         SpriteFont pericles14;
@@ -79,6 +79,7 @@ namespace Asteroid_Belt_Assault
             titleScreen = Content.Load<Texture2D>(@"Textures\TitleScreen");
             spriteSheet = Content.Load<Texture2D>(@"Textures\spriteSheet");
 
+            
             starField = new StarField(
                 this.Window.ClientBounds.Width,
                 this.Window.ClientBounds.Height,
@@ -127,6 +128,8 @@ namespace Asteroid_Belt_Assault
                 playerManager,
                 enemyManager,
                 explosionManager);
+            
+            gunManager = new GunManager();
 
             SoundManager.Initialize(Content);
 
@@ -193,7 +196,8 @@ namespace Asteroid_Belt_Assault
                     break;
 
                 case GameStates.Playing:
-
+                    gunManager.updateGuns(gameTime);
+                    playerManager.HandleGuns(gunManager);
                     starField.Update(gameTime);
                     asteroidManager.Update(gameTime);
                     playerManager.Update(gameTime);
@@ -290,14 +294,14 @@ namespace Asteroid_Belt_Assault
                 spriteBatch.DrawString(
                       pericles14,
                       "Current Gun: " +
-                          playerManager.currentGun.ToString(),
+                          gunManager.currentGun.ToString(),
                       gunLocation,
                       Color.White);
-                if(playerManager.Shots >0)
+                if(gunManager.Shots >0)
                 spriteBatch.DrawString(
                        pericles14,
                        "Shots Remaining: " +
-                            playerManager.Shots,
+                            gunManager.Shots,
                        shotsLocation,
                        Color.White);
                 else

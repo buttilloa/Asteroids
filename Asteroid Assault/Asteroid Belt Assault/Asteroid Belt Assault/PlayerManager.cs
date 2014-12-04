@@ -13,23 +13,22 @@ namespace Asteroid_Belt_Assault
         public Sprite playerSprite;
         private float playerSpeed = 160.0f;
         private Rectangle playerAreaLimit;
-
+        GunManager gunManager;
         public long PlayerScore = 0;
         public int LivesRemaining = 3;
         public bool Destroyed = false;
         bool canSwitch = true;
-        public int Shots = 10;
-        //public String CurrentGun = "Machine";
+        //public int Shots = 10;
         
-        public enum CurrentGun {Machine, Rocket, Laser, TriGun};
-        public CurrentGun currentGun = CurrentGun.Machine;
+        //public enum CurrentGun {Machine, Rocket, Laser, TriGun, Donut};
+       // public CurrentGun currentGun = CurrentGun.Machine;
         
-        private Vector2 gunOffset = new Vector2(25, 10);
-        private float shotTimer = 0.0f;
-        private float minShotTimer = 0.2f;
+        public Vector2 gunOffset = new Vector2(25, 10);
+        public float shotTimer = 0.0f;
+        public float minShotTimer = 0.2f;
         private int playerRadius = 15;
         public ShotManager PlayerShotManager;
-        Game1 game = new Game1();
+       
         public PlayerManager(
             Texture2D texture,  
             Rectangle initialFrame,
@@ -69,19 +68,10 @@ namespace Asteroid_Belt_Assault
             playerSprite.CollisionRadius = playerRadius;
         }
 
-        private void FireShot(int Direction) // -1=left 0=straight 1=right
+        public void HandleGuns(GunManager guns)
         {
-                if (shotTimer >= minShotTimer)
-                    {
-                           PlayerShotManager.FireShot(
-                            playerSprite.Location + gunOffset,
-                            new Vector2(Direction, -1),
-                            true);
-                        Shots--;
-                        shotTimer = 0.0f;
-                    }
+            gunManager = guns;
         }
-
         private void HandleKeyboardInput(KeyboardState keyState)
         {
             if (keyState.IsKeyDown(Keys.Up))
@@ -105,44 +95,37 @@ namespace Asteroid_Belt_Assault
             }
             if (keyState.IsKeyDown(Keys.A))
             {
-                FireShot(-1);
+                gunManager.FireShot(-1, this);
             }
             if (keyState.IsKeyDown(Keys.D))
             {
-                FireShot(1);
+                gunManager.FireShot(1, this);
             }
-            if (Shots > 0)
+            if (gunManager.Shots > 0)
             {
                 if (keyState.IsKeyDown(Keys.Space) || keyState.IsKeyDown(Keys.S))
                 {
-                    FireShot(0);
+                    //FireShot(0);
+                    gunManager.FireShot(0, this);
                 }
            }
             if (keyState.IsKeyDown(Keys.R))
-                Shots = 30;
+                gunManager.Shots = 30;
             if (keyState.IsKeyDown(Keys.Z) && canSwitch)
             {
-                cycleGun(-1);
+                gunManager.cycleGun(-1);
                 canSwitch = false;
             }
-            if (keyState.IsKeyDown(Keys.X) && canSwitch)
+            else if (keyState.IsKeyDown(Keys.X) && canSwitch)
             {
-                cycleGun(1);
+                gunManager.cycleGun(1);
                 canSwitch = false;
             }
+            else if (keyState.IsKeyUp(Keys.X) && keyState.IsKeyUp(Keys.Z) && !canSwitch)
+                canSwitch = true;
+           
         }
-        public void cycleGun(int direction)
-        {
-            int current = (int)currentGun;
-            int Max = Enum.GetNames(typeof(CurrentGun)).Length-1;
-            
-            if (direction > 0 && current != Max)
-                current++;
-            if (direction < 0 && current !=0)
-                current--;
-            currentGun = (CurrentGun)current;
-          
-        }
+        
         private void HandleGamepadInput(GamePadState gamePadState)
         {
             playerSprite.Velocity +=
@@ -152,7 +135,7 @@ namespace Asteroid_Belt_Assault
 
             if (gamePadState.Buttons.A == ButtonState.Pressed)
             {
-                FireShot(0);
+                gunManager.FireShot(0,this);
             }
         }
 
