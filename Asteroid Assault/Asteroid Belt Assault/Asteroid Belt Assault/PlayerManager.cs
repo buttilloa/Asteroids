@@ -18,11 +18,7 @@ namespace Asteroid_Belt_Assault
         public int LivesRemaining = 3;
         public bool Destroyed = false;
         bool canSwitch = true;
-        //public int Shots = 10;
-        
-        //public enum CurrentGun {Machine, Rocket, Laser, TriGun, Donut};
-       // public CurrentGun currentGun = CurrentGun.Machine;
-        
+       
         public Vector2 gunOffset = new Vector2(25, 10);
         public float shotTimer = 0.0f;
         public float minShotTimer = 0.2f;
@@ -93,24 +89,18 @@ namespace Asteroid_Belt_Assault
             {
                 playerSprite.Velocity += new Vector2(1, 0);
             }
-            if (keyState.IsKeyDown(Keys.A))
-            {
-                gunManager.FireShot(-1, this);
-            }
-            if (keyState.IsKeyDown(Keys.D))
-            {
-                gunManager.FireShot(1, this);
-            }
-            if (gunManager.Shots > 0)
+           
+            if (gunManager.Shots[(int)gunManager.currentGun] > 0)
             {
                 if (keyState.IsKeyDown(Keys.Space) || keyState.IsKeyDown(Keys.S))
                 {
-                    //FireShot(0);
+                  
                     gunManager.FireShot(0, this);
                 }
            }
             if (keyState.IsKeyDown(Keys.R))
-                gunManager.Shots = 30;
+             gunManager.Shots[(int)gunManager.currentGun] = gunManager.ShotsOG[(int)gunManager.currentGun];
+            
             if (keyState.IsKeyDown(Keys.Z) && canSwitch)
             {
                 gunManager.cycleGun(-1);

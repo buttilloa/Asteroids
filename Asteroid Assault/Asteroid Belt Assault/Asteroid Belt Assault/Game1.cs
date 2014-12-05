@@ -18,11 +18,12 @@ namespace Asteroid_Belt_Assault
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-
+        Sprite crosshair;
         enum GameStates { TitleScreen, Playing, PlayerDead, GameOver };
         GameStates gameState = GameStates.TitleScreen;
         Texture2D titleScreen;
         Texture2D spriteSheet;
+        Texture2D crossHairsheet;
 
         StarField starField;
         AsteroidManager asteroidManager;
@@ -31,6 +32,7 @@ namespace Asteroid_Belt_Assault
         ExplosionManager explosionManager;
         GunManager gunManager;
         CollisionManager collisionManager;
+
 
         SpriteFont pericles14;
 
@@ -78,8 +80,9 @@ namespace Asteroid_Belt_Assault
 
             titleScreen = Content.Load<Texture2D>(@"Textures\TitleScreen");
             spriteSheet = Content.Load<Texture2D>(@"Textures\spriteSheet");
+            crossHairsheet = Content.Load<Texture2D>(@"Textures\Crosshair2");
 
-            
+            crosshair = new Sprite(new Vector2(0, 0), crossHairsheet, new Rectangle(0, 0, 48, 48), Vector2.Zero);
             starField = new StarField(
                 this.Window.ClientBounds.Width,
                 this.Window.ClientBounds.Height,
@@ -128,10 +131,12 @@ namespace Asteroid_Belt_Assault
                 playerManager,
                 enemyManager,
                 explosionManager);
-            
+
             gunManager = new GunManager();
 
             SoundManager.Initialize(Content);
+            EffectManager.Initialize(graphics, Content);
+            EffectManager.LoadContent();
 
             pericles14 = Content.Load<SpriteFont>(@"Fonts\Pericles14");
 
@@ -204,7 +209,11 @@ namespace Asteroid_Belt_Assault
                     enemyManager.Update(gameTime);
                     explosionManager.Update(gameTime);
                     collisionManager.CheckCollisions();
+                    EffectManager.Update(gameTime);
 
+                    MouseState ms = Mouse.GetState();
+                    crosshair.Location = new Vector2(ms.X, ms.Y);
+                    
                     if (playerManager.Destroyed)
                     {
                         playerDeathTimer = 0f;
@@ -285,6 +294,7 @@ namespace Asteroid_Belt_Assault
                 playerManager.Draw(spriteBatch);
                 enemyManager.Draw(spriteBatch);
                 explosionManager.Draw(spriteBatch);
+               
 
                 spriteBatch.DrawString(
                     pericles14,
@@ -297,11 +307,11 @@ namespace Asteroid_Belt_Assault
                           gunManager.currentGun.ToString(),
                       gunLocation,
                       Color.White);
-                if(gunManager.Shots >0)
+                if (gunManager.Shots[(int)gunManager.currentGun] > 0)
                 spriteBatch.DrawString(
                        pericles14,
                        "Shots Remaining: " +
-                            gunManager.Shots,
+                            gunManager.Shots[(int)gunManager.currentGun],
                        shotsLocation,
                        Color.White);
                 else
@@ -334,8 +344,10 @@ namespace Asteroid_Belt_Assault
                     Color.White);
             }
 
-
+            crosshair.Draw(spriteBatch);
             spriteBatch.End();
+
+            EffectManager.Draw();
 
             base.Draw(gameTime);
         }

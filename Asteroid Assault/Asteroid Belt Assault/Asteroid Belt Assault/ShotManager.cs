@@ -14,9 +14,11 @@ namespace Asteroid_Belt_Assault
 
         private static Texture2D Texture;
         private static Rectangle InitialFrame;
+        private static Rectangle InitialFrameOG;
         private static int FrameCount;
         private float shotSpeed;
         private static int CollisionRadius;
+        GunManager gunManager;
 
         public ShotManager(
             Texture2D texture,
@@ -28,6 +30,7 @@ namespace Asteroid_Belt_Assault
         {
             Texture = texture;
             InitialFrame = initialFrame;
+            InitialFrameOG = initialFrame;
             FrameCount = frameCount;
             CollisionRadius = collisionRadius;
             this.shotSpeed = shotSpeed;
@@ -37,8 +40,49 @@ namespace Asteroid_Belt_Assault
         public void FireShot(
             Vector2 location,
             Vector2 velocity,
-            bool playerFired)
+            GunManager.CurrentGun gun)
         {
+            InitialFrame = InitialFrameOG;
+            int extraCollide = 0;
+            if (gun == GunManager.CurrentGun.Rocket)
+            {
+                InitialFrame = new Rectangle(0, 311, 25, 46);
+                extraCollide = 30;
+            }
+            if (gun == GunManager.CurrentGun.Donut)
+            {
+                InitialFrame = new Rectangle(0, 311, 25, 46);
+                extraCollide = 30;
+            }
+            Sprite thisShot = new Sprite(
+                location,
+                Texture,
+                InitialFrame,
+                velocity);
+
+            thisShot.Velocity *= shotSpeed+10;
+
+            for (int x = 1; x < 4; x++)
+            {
+                thisShot.AddFrame(new Rectangle(
+                    InitialFrame.X + (InitialFrame.Width * x),
+                    InitialFrame.Y,
+                    InitialFrame.Width,
+                    InitialFrame.Height));
+                 
+            }
+            thisShot.CollisionRadius = CollisionRadius+extraCollide;
+            Shots.Add(thisShot);
+
+            SoundManager.PlayPlayerShot();
+            
+        }
+        public void FireShot(
+          Vector2 location,
+          Vector2 velocity,
+          bool playerFired)
+        {
+            InitialFrame = InitialFrameOG;
             Sprite thisShot = new Sprite(
                 location,
                 Texture,
@@ -69,12 +113,12 @@ namespace Asteroid_Belt_Assault
                 SoundManager.PlayEnemyShot();
             }
         }
-
         public void Update(GameTime gameTime)
         {
             for (int x = Shots.Count - 1; x >= 0; x--)
             {
                 Shots[x].Update(gameTime);
+                EffectManager.Effect("Enemy Cannon Fire").Trigger(Shots[x].Location);
                 if (!screenBounds.Intersects(Shots[x].Destination))
                 {
                     Shots.RemoveAt(x);
@@ -87,6 +131,7 @@ namespace Asteroid_Belt_Assault
             foreach (Sprite shot in Shots)
             {
                 shot.Draw(spriteBatch);
+
             }
         }
 
