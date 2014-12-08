@@ -191,7 +191,9 @@ namespace Asteroid_Belt_Assault
         public void Update(GameTime gameTime)
         {
             PlayerShotManager.Update(gameTime);
-            
+            for (int i = 0; i < 17;i++)
+                if (PlayerScore > i*400)
+                    SoundManager.Music[i].Volume = 1f;
           
             SheildPowerUP.Update(gameTime);
             SheildRemaining--;

@@ -111,7 +111,6 @@ C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroi
 C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Water002.xnb
 C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Weeds.xnb
 C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\ProjectMercury.dll
-C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\obj\x86\Debug\Asteroid Belt Assault.csprojResolveAssemblyReference.cache
 C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\BasicExplosion.xnb
 C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\BasicExplosionWithHalo.xnb
 C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\BasicExplosionWithTrails2.xnb
@@ -207,3 +206,21 @@ C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Astero
 C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\obj\x86\Debug\Asteroid Belt Assault.exe
 C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\obj\x86\Debug\Asteroid Belt Assault.pdb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Music\b1.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Music\b10.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Music\b11.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Music\b12.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Music\b13.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Music\b14.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Music\b15.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Music\b16.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Music\b17.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Music\b2.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Music\b3.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Music\b4.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Music\b5.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Music\b6.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Music\b7.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Music\b8.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Music\b9.xnb
+C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Music\bx.xnb
