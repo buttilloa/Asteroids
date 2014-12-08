@@ -166,7 +166,9 @@ namespace Asteroid_Belt_Assault
                 asteroid2.Velocity -= cOfMass;
                 asteroid2.Velocity =
                     Vector2.Reflect(asteroid2.Velocity, normal2);
-
+                
+                EffectManager.Effect("MeteroidCollision").Trigger(new Vector2((asteroid1.Location.X+asteroid2.Location.X)/2,(asteroid1.Location.Y+asteroid2.Location.Y)/2));
+                    
                 asteroid2.Velocity += cOfMass;
             }
         }
@@ -185,7 +187,7 @@ namespace Asteroid_Belt_Assault
 
             for (int x = 0; x < Asteroids.Count; x++)
             {
-                for (int y = x + 1; y < Asteroids.Count; y++)
+                for (int y = x +1; y < Asteroids.Count; y++)
                 {
                     if (Asteroids[x].IsCircleColliding(
                         Asteroids[y].Center, Asteroids[y].CollisionRadius))

@@ -13,7 +13,7 @@ namespace Asteroid_Belt_Assault
         private Rectangle initialFrame;
         private int frameCount;
 
-        public List<Enemy> Enemies = new List<Enemy>();
+        public static List<Enemy> Enemies = new List<Enemy>();
 
         public ShotManager EnemyShotManager;
         private PlayerManager playerManager;
@@ -95,7 +95,7 @@ namespace Asteroid_Belt_Assault
                     2,
                     150f,
                     screenBounds);
-
+          
             setUpWaypoints();
         }
 
@@ -146,7 +146,8 @@ namespace Asteroid_Belt_Assault
         public void Update(GameTime gameTime)
         {
             EnemyShotManager.Update(gameTime);
-
+          
+            
             for (int x = Enemies.Count - 1; x >= 0; x--)
             {
                 Enemies[x].Update(gameTime);
@@ -156,8 +157,14 @@ namespace Asteroid_Belt_Assault
                 }
                 else
                 {
+                    if (rand.Next(-1000, 1000) == 1 || Enemies[x].isTracking)
+                    {
+                        Enemies[x].currentWaypoint = playerManager.playerSprite.Location;
+                        Enemies[x].isTracking = true;
+                    }
                     if ((float)rand.Next(0, 1000) / 10 <= shipShotChance)
                     {
+                        
                         Vector2 fireLoc = Enemies[x].EnemySprite.Location;
                         fireLoc += Enemies[x].gunOffset;
 

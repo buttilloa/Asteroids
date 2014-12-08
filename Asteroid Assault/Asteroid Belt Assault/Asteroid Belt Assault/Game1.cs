@@ -160,7 +160,7 @@ namespace Asteroid_Belt_Assault
             {
                 asteroid.Location = new Vector2(-500, -500);
             }
-            enemyManager.Enemies.Clear();
+            EnemyManager.Enemies.Clear();
             enemyManager.Active = true;
             playerManager.PlayerShotManager.Shots.Clear();
             enemyManager.EnemyShotManager.Shots.Clear();
@@ -201,7 +201,7 @@ namespace Asteroid_Belt_Assault
                     break;
 
                 case GameStates.Playing:
-                    gunManager.updateGuns(gameTime);
+                 
                     playerManager.HandleGuns(gunManager);
                     starField.Update(gameTime);
                     asteroidManager.Update(gameTime);

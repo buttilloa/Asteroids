@@ -12,12 +12,13 @@ namespace Asteroid_Belt_Assault
         public Sprite EnemySprite;
         public Vector2 gunOffset = new Vector2(25, 25);
         private Queue<Vector2> waypoints = new Queue<Vector2>();
-        private Vector2 currentWaypoint = Vector2.Zero;
+        public Vector2 currentWaypoint = Vector2.Zero;
         private float speed = 120f;
         public bool Destroyed = false;
         private int enemyRadius = 15;
-        private Vector2 previousLocation = Vector2.Zero;
-
+        public bool isTracking = false;
+        public static Vector2 previousLocation = Vector2.Zero;
+       
         public Enemy(
             Texture2D texture,
             Vector2 location,
@@ -94,6 +95,7 @@ namespace Asteroid_Belt_Assault
                 heading *= speed;
                 EnemySprite.Velocity = heading;
                 previousLocation = EnemySprite.Location;
+               
                 EnemySprite.Update(gameTime);
                 EnemySprite.Rotation =
                     (float)Math.Atan2(

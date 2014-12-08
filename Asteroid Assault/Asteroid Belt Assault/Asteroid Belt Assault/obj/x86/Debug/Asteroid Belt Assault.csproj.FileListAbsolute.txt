@@ -134,3 +134,76 @@ C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroi
 C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\StarFireImpact.xnb
 C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\StarTrail.xnb
 C:\Users\Eahscs\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\WaterJet.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\SpriteSheet.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\TitleScreen.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Beam.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\BeamBlurred.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Cloud001.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Cloud002.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Cloud003.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Cloud004.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Crosshair2.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Flame.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\FlowerBurst.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Laser.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\LensFlare.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\light.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\MultiDot.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Particle001.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Particle002.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Particle003.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Particle004.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Particle005.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Particle006.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Particle007.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\pause.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Ring001.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Ring002.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\SoftClumpy.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\SoftSmokey.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Spikey001.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Spikey002.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Splash.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Spray001.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Star.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\uilayers.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Water001.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Water002.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Textures\Weeds.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion1.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion2.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion3.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Explosion4.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Shot1.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Shot2.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\Pew.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Sounds\boop.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\Fonts\Pericles14.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\BasicExplosion.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\BasicExplosionWithHalo.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\BasicExplosionWithTrails2.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\BasicFireball.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\BasicSmokePlume.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\BeamMeUp.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\CampFire.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\Enemy Cannon Fire.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\FlowerBloom.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\MagicTrail.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\MeteroidCollision.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\MeteroidExplode.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\Paparazzi.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\PulseTracker.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\ShieldBounce.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\ShieldsUp.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\Ship Cannon Fire.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\ShipSmokeTrail.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\SimpleRain.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\StarFireImpact.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\StarTrail.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Content\EffectLibrary\WaterJet.xnb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Asteroid Belt Assault.exe
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\Asteroid Belt Assault.pdb
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\bin\x86\Debug\ProjectMercury.dll
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\obj\x86\Debug\Asteroid Belt Assault.exe
+C:\Users\Anthony\Desktop\Asteroids\Asteroid Assault\Asteroid Belt Assault\Asteroid Belt Assault\obj\x86\Debug\Asteroid Belt Assault.pdb

@@ -263,7 +263,6 @@
       <Processor>TextureProcessor</Processor>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Compile Include="EffectLibrary\BasicExplosion.xml">
       <Name>BasicExplosion</Name>

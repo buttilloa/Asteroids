@@ -11,13 +11,16 @@ namespace Asteroid_Belt_Assault
     {
         public Texture2D Texture;
 
-        protected List<Rectangle> frames = new List<Rectangle>();
+        public List<Rectangle> frames = new List<Rectangle>();
         private int frameWidth = 0;
         private int frameHeight = 0;
         private int currentFrame;
         private float frameTime = 0.1f;
         private float timeForCurrentFrame = 0.0f;
-
+        public bool isRocket = false;
+        public int tracking = -1;
+        public bool isVisible = true;
+        
         private Color tintColor = Color.White;
         private float rotation = 0.0f;
 
@@ -157,6 +160,7 @@ namespace Asteroid_Belt_Assault
 
         public virtual void Draw(SpriteBatch spriteBatch)
         {
+            if(isVisible)
             spriteBatch.Draw(
                 Texture,
                 Center,
