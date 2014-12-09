@@ -17,7 +17,7 @@ namespace Asteroid_Belt_Assault
             List<SoundEffect>();
         public static List<SoundEffectInstance> Music = new
             List<SoundEffectInstance>();
-        private static Song FinalSong;
+       
         private static int explosionCount = 4;
         private static int MusicCount = 17;
         

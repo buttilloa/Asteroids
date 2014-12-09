@@ -11,9 +11,9 @@ namespace Asteroid_Belt_Assault
     class GunManager
     {
 
-        public int[] Shots = new int[5] { 100, 1, 100, 30, 10 };
-        public int[] ShotsOG = new int[] {  100,     1,    100,    30,     10 };
-        public enum CurrentGun           {Machine, Rocket, Laser, TriGun, Donut};
+        public int[] Shots = new int[4] { 100, 1, 100, 30 };// 10 };
+        public int[] ShotsOG = new int[] {  100,     1,    100,    30 }; //  10 };
+        public enum CurrentGun { Machine, Rocket, Laser, TriGun };//Donut};
         public CurrentGun currentGun = CurrentGun.Machine;
        
         

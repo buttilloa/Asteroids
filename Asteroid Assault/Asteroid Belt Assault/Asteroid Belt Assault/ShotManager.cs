@@ -50,11 +50,11 @@ namespace Asteroid_Belt_Assault
                 extraCollide = 30;
               
             }
-            if (gun == GunManager.CurrentGun.Donut)
+            /*if (gun == GunManager.CurrentGun.Donut)
             {
                 InitialFrame = new Rectangle(0, 311, 25, 46);
                 extraCollide = 30;
-            }
+            }*/
             Sprite thisShot = new Sprite(
                 location,
                 Texture,
